@@ -1,5 +1,7 @@
 # Inkay
 
+每月統計Google日曆各項活動時數發送至Discord頻道
+
 env
 ---
 ```dotenv

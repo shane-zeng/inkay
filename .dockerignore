@@ -1,0 +1,33 @@
+# Include any files or directories that you don't want to be copied to your
+# container here (e.g., local build artifacts, temporary files, etc.).
+#
+# For more help, visit the .dockerignore file reference guide at
+# https://docs.docker.com/engine/reference/builder/#dockerignore-file
+
+.github
+.idea
+bootstrap/cache/*.php
+storage/app/*
+storage/debugbar/*
+storage/framework/*
+storage/logs/*
+tests
+vendor
+.editorconfig
+.gitattributes
+.phpstorm*
+.phpunit.result.cache
+_ide_helper.php
+_ide_helper_models.php
+phpunit.xml
+pint.json
+
+**/.DS_Store
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/Dockerfile*
+README.md
